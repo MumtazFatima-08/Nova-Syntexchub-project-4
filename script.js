@@ -247,7 +247,7 @@
       window.open(searchUrl, "_blank", "noopener,noreferrer");
       return;
     }
-    const urlMap = {
+ const urlMap = {
 
 google:"https://www.google.com",
 youtube:"https://www.youtube.com",
@@ -394,6 +394,17 @@ calendar:"https://calendar.google.com"
 
   function bindEvents() {
     sendBtn.addEventListener("click", () => handleUserMessage(textInput.value));
+    const backBtn=document.getElementById("backToChat");
+
+if(backBtn){
+
+backBtn.addEventListener("click",()=>{
+
+closeModal();
+
+});
+
+}
 
     textInput.addEventListener("keydown", (event) => {
       if (event.key === "Enter") {
