@@ -675,3 +675,20 @@ button {
         visibility: visible !important;
     }
 }
+/* Back Button */
+
+.back-btn{
+    width:100%;
+    padding:12px;
+    margin-top:20px;
+    border-radius:10px;
+    border:none;
+    cursor:pointer;
+    background:#333;
+    color:white;
+    font-size:15px;
+}
+
+.back-btn:hover{
+    opacity:0.8;
+}
