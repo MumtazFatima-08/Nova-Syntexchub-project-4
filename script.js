@@ -247,14 +247,23 @@
       window.open(searchUrl, "_blank", "noopener,noreferrer");
       return;
     }
-
     const urlMap = {
-      google: "https://www.google.com",
-      youtube: "https://www.youtube.com",
-      github: "https://github.com",
-      linkedin: "https://www.linkedin.com",
-      gmail: "https://mail.google.com",
-    };
+
+google:"https://www.google.com",
+youtube:"https://www.youtube.com",
+github:"https://github.com",
+linkedin:"https://www.linkedin.com",
+gmail:"https://mail.google.com",
+
+whatsapp:"https://web.whatsapp.com",
+spotify:"https://open.spotify.com",
+discord:"https://discord.com",
+chatgpt:"https://chat.openai.com",
+canva:"https://www.canva.com",
+drive:"https://drive.google.com",
+calendar:"https://calendar.google.com"
+
+};
 
     if (action in urlMap) {
       window.open(urlMap[action], "_blank", "noopener,noreferrer");
