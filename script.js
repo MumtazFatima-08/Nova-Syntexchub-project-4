@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  const API_URL = "/api/chat";
+  const API_URL = "https://nova-syntexchub-project-4-1.onrender.com/api/chat";
   const HISTORY_KEY = "nova-history";
   const SETTINGS_KEY = "nova-settings";
 
